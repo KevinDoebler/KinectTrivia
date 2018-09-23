@@ -3,23 +3,45 @@
         xmlns:kt="clr-namespace:Microsoft.Samples.Kinect.WpfViewers;assembly=Microsoft.Samples.Kinect.WpfViewers"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:toolkit="clr-namespace:Microsoft.Kinect.Toolkit;assembly=Microsoft.Kinect.Toolkit"
-        Title="Kinect Shape Game" FontStyle="Italic" SizeToContent="WidthAndHeight"
-        Loaded="WindowLoaded" Closed="WindowClosed" Closing="WindowClosing" WindowStartupLocation="CenterScreen" WindowState="Maximized" Width="1920" Height="1080">
-    <Grid>
-        <StackPanel Orientation="Vertical" Background="#FF46BC44">
-            <Grid MinHeight="500" MinWidth="500">
-                <Canvas Margin="0" Name="playfield" Height="1080" Width="1920" SizeChanged="PlayfieldSizeChanged">
-                    <Canvas.Background>
-                        <ImageBrush ImageSource="/TriviaGame;component/Resources/stadiumResize.jpg" />
-                    </Canvas.Background>
-                </Canvas>
-                <kt:KinectColorViewer Margin="0,18,19,0" HorizontalAlignment="Right" Width="160" Height="120" VerticalAlignment="Top" KinectSensorManager="{Binding}"/>
-                <toolkit:KinectSensorChooserUI x:Name="SensorChooserUI" IsListening="True"  HorizontalAlignment="Right" VerticalAlignment="Top" />
-            </Grid>
-            <CheckBox x:Name="enableAec" Foreground="White" FontSize="20" Margin="19,0,0,18" HorizontalAlignment="Left" VerticalAlignment="Bottom" Visibility="Collapsed" Checked="EnableAecChecked" Unchecked="EnableAecChecked" IsEnabled="False">
-                Enable Echo Cancellation on Default Speakers
-            </CheckBox>
-            
-        </StackPanel>
+        Title="Kinect Shape Game" FontStyle="Italic" SizeToContent="Manual"
+        Loaded="WindowLoaded" Closed="WindowClosed" Closing="WindowClosing" WindowStartupLocation="CenterScreen" WindowState="Normal" Width="1440" Height="810" Background="#F73CA8FF">
+    <Grid Name="layoutGrid" Margin="10 0 10 0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid  VerticalAlignment="Top" Grid.Row="0" Background="#FF13C2C9">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="55*"/>
+                <ColumnDefinition Width="410*"/>
+                <ColumnDefinition Width="947*"/>
+            </Grid.ColumnDefinitions>
+            <toolkit:KinectSensorChooserUI Grid.Column="2" HorizontalAlignment="Center" Margin="221,0,686,0" VerticalAlignment="Top" Name="sensorChooserUI" />
+            <kt:KinectColorViewer Grid.Column="2" Margin="820,0,17,0" Height="100" VerticalAlignment="Top" KinectSensorManager="{Binding}" Panel.ZIndex="100"/>
+
+            <Slider Grid.Column="2" Height="15" HorizontalAlignment="Left"  Name="sliderAngle" VerticalAlignment="Top" Width="384" ValueChanged="sliderAngle_ValueChanged" Maximum="27" Minimum="-27" Orientation="Horizontal" Margin="50,5,0,0"  />
+            <!--<Label  Grid.Column="1" Content="0" Height="39" HorizontalAlignment="Left" Margin="539,105,0,0" Name="lblSliderValue" VerticalAlignment="Top" FontSize="20" />-->
+            <Button  Content="Adjust" Height="25" HorizontalAlignment="Left" Margin="450,3,0,0" Name="btnSetAngle" VerticalAlignment="Top" Width="135" Click="btnSetAngle_Click" RenderTransformOrigin="1,-1.5" Grid.Column="2" />
+
+        </Grid>
+        <Grid Grid.Row="1">
+            <Label Name="lblQuestion" FontSize="24" Foreground="White" Background="#FF3CA8FF" FontFamily="Futura Std Medium" Margin="0,0,0,-95" Width="1400" Height="164"/>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Canvas Margin="10,10,10,9.5" Name="playfield" SizeChanged="PlayfieldSizeChanged">
+                <Canvas.Background>
+                    <ImageBrush ImageSource="Resources/stadiumResize.jpg"/>
+                </Canvas.Background>
+            </Canvas>
+        </Grid>
+        <Image Name ="MaskedColor" Panel.ZIndex="50000" Margin="50,64,34.556,18.667" Grid.Row="2" Grid.RowSpan="2"  />
+
+        <Grid Grid.Row="3" Background="#FF3CA8FF">
+            <CheckBox  Content="Near Mode" Height="Auto" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,12,10,8" Name="checkBoxNearMode" Checked="CheckBoxNearModeChanged" Unchecked="CheckBoxNearModeChanged" FontFamily="Consolas" FontStyle="Normal" Foreground="White"/>
+            <CheckBox x:Name="enableAec" Content="Enable Echo Cancellation on Default Speakers" Foreground="White" Margin="1092,12,10,8"  Checked="EnableAecChecked" Unchecked="EnableAecChecked" IsEnabled="False" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Consolas" FontStyle="Normal"/>
+        </Grid>
     </Grid>
 </Window>

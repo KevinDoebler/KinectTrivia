@@ -1,27 +1,102 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
-  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="Answers" EntityType="Model1.Answer" />
-    <EntitySet Name="Questions" EntityType="Model1.Question" />
-  </EntityContainer>
+<Schema Namespace="Database1Model1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityType Name="Answer">
     <Key>
       <PropertyRef Name="AnsID" />
     </Key>
-    <Property Type="Int32" Name="AnsID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Type="Int32" Name="AnsQueID" Nullable="false" />
-    <Property Type="String" Name="AnsImagePath" MaxLength="255" FixedLength="false" Unicode="false" />
-    <Property Type="Boolean" Name="AnsCorrect" Nullable="false" />
-    <Property Type="Boolean" Name="AnsInactive" Nullable="false" />
-    <Property Type="String" Name="AnsText" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="AnsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AnsQueID" Type="Int32" Nullable="false" />
+    <Property Name="AnsImagePath" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="AnsCorrect" Type="Boolean" Nullable="false" />
+    <Property Name="AnsInactive" Type="Boolean" Nullable="false" />
+    <Property Name="AnsText" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Question" Relationship="Self.FK_Answers_Questions" FromRole="Answers" ToRole="Questions" />
+    <NavigationProperty Name="Guesses" Relationship="Self.FK_Guesses_Answers" FromRole="Answers" ToRole="Guesses" />
+  </EntityType>
+  <EntityType Name="Game">
+    <Key>
+      <PropertyRef Name="GamID" />
+    </Key>
+    <Property Name="GamID" Type="Int32" Nullable="false" />
+    <Property Name="GamPlayerName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="GamScore" Type="Int32" />
+    <Property Name="GamDateTime" Type="DateTime" Precision="3" />
+    <Property Name="GamDifficulty" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="Guesses" Relationship="Self.FK_Guesses_Games" FromRole="Games" ToRole="Guesses" />
+  </EntityType>
+  <EntityType Name="Guess">
+    <Key>
+      <PropertyRef Name="GueID" />
+    </Key>
+    <Property Name="GueID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GueAnsID" Type="Int32" Nullable="false" />
+    <Property Name="GueGamID" Type="Int32" />
+    <NavigationProperty Name="Answer" Relationship="Self.FK_Guesses_Answers" FromRole="Guesses" ToRole="Answers" />
+    <NavigationProperty Name="Game" Relationship="Self.FK_Guesses_Games" FromRole="Guesses" ToRole="Games" />
   </EntityType>
   <EntityType Name="Question">
     <Key>
       <PropertyRef Name="QueID" />
     </Key>
-    <Property Type="Int32" Name="QueID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Type="String" Name="QueQuestion" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
-    <Property Type="Int32" Name="QueDropSpeed" />
-    <Property Type="Boolean" Name="QueInactive" Nullable="false" />
+    <Property Name="QueID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="QueQuestion" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="QueDropSpeed" Type="Int32" />
+    <Property Name="QueInactive" Type="Boolean" Nullable="false" />
+    <Property Name="QueDifficulty" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Answers" Relationship="Self.FK_Answers_Questions" FromRole="Questions" ToRole="Answers" />
   </EntityType>
+  <Association Name="FK_Answers_Questions">
+    <End Role="Questions" Type="Self.Question" Multiplicity="1" />
+    <End Role="Answers" Type="Self.Answer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="QueID" />
+      </Principal>
+      <Dependent Role="Answers">
+        <PropertyRef Name="AnsQueID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Guesses_Answers">
+    <End Role="Answers" Type="Self.Answer" Multiplicity="1" />
+    <End Role="Guesses" Type="Self.Guess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Answers">
+        <PropertyRef Name="AnsID" />
+      </Principal>
+      <Dependent Role="Guesses">
+        <PropertyRef Name="GueAnsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Guesses_Games">
+    <End Role="Games" Type="Self.Game" Multiplicity="0..1" />
+    <End Role="Guesses" Type="Self.Guess" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Games">
+        <PropertyRef Name="GamID" />
+      </Principal>
+      <Dependent Role="Guesses">
+        <PropertyRef Name="GueGamID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database1Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Answers" EntityType="Self.Answer" />
+    <EntitySet Name="Games" EntityType="Self.Game" />
+    <EntitySet Name="Guesses" EntityType="Self.Guess" />
+    <EntitySet Name="Questions" EntityType="Self.Question" />
+    <AssociationSet Name="FK_Answers_Questions" Association="Self.FK_Answers_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="Answers" EntitySet="Answers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Guesses_Answers" Association="Self.FK_Guesses_Answers">
+      <End Role="Answers" EntitySet="Answers" />
+      <End Role="Guesses" EntitySet="Guesses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Guesses_Games" Association="Self.FK_Guesses_Games">
+      <End Role="Games" EntitySet="Games" />
+      <End Role="Guesses" EntitySet="Guesses" />
+    </AssociationSet>
+  </EntityContainer>
 </Schema>

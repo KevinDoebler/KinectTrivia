@@ -186,7 +186,7 @@ namespace Microsoft.Samples.Kinect.WpfViewers
 
             // Have we already been "shut down" by the user of this viewer, 
             // or has the SkeletonStream been disabled since this event was posted?
-            if ((null == this.KinectSensorManager) || 
+            if ((null == this.KinectSensorManager) ||
                 (null == sensor) ||
                 (null == sensor.SkeletonStream) ||
                 !sensor.SkeletonStream.IsEnabled)
@@ -209,7 +209,7 @@ namespace Microsoft.Samples.Kinect.WpfViewers
 
                     haveSkeletonData = true;
                 }
-            }          
+            }
 
             if (haveSkeletonData)
             {
@@ -223,44 +223,44 @@ namespace Microsoft.Samples.Kinect.WpfViewers
 
                 switch (this.ImageType)
                 {
-                case ImageType.Color:
-                    // Retrieve the current color format, from the frame if present, and from the sensor if not.
-                    using (ColorImageFrame colorImageFrame = e.OpenColorImageFrame())
-                    {
-                        if (null != colorImageFrame)
+                    case ImageType.Color:
+                        // Retrieve the current color format, from the frame if present, and from the sensor if not.
+                        using (ColorImageFrame colorImageFrame = e.OpenColorImageFrame())
                         {
-                            colorFormat = colorImageFrame.Format;
-                            colorWidth = colorImageFrame.Width;
-                            colorHeight = colorImageFrame.Height;
+                            if (null != colorImageFrame)
+                            {
+                                colorFormat = colorImageFrame.Format;
+                                colorWidth = colorImageFrame.Width;
+                                colorHeight = colorImageFrame.Height;
+                            }
+                            else if (null != sensor.ColorStream)
+                            {
+                                colorFormat = sensor.ColorStream.Format;
+                                colorWidth = sensor.ColorStream.FrameWidth;
+                                colorHeight = sensor.ColorStream.FrameHeight;
+                            }
                         }
-                        else if (null != sensor.ColorStream)
-                        {
-                            colorFormat = sensor.ColorStream.Format;
-                            colorWidth = sensor.ColorStream.FrameWidth;
-                            colorHeight = sensor.ColorStream.FrameHeight;
-                        }
-                    }
 
-                    break;
-                case ImageType.Depth:
-                    // Retrieve the current depth format, from the frame if present, and from the sensor if not.
-                    using (DepthImageFrame depthImageFrame = e.OpenDepthImageFrame())
-                    {
-                        if (null != depthImageFrame)
+                        break;
+                    case ImageType.Depth:
+                        // Retrieve the current depth format, from the frame if present, and from the sensor if not.
+                        using (DepthImageFrame depthImageFrame = e.OpenDepthImageFrame())
                         {
-                            depthFormat = depthImageFrame.Format;
-                            depthWidth = depthImageFrame.Width;
-                            depthHeight = depthImageFrame.Height;
+                            if (null != depthImageFrame)
+                            {
+                                depthFormat = depthImageFrame.Format;
+                                depthWidth = depthImageFrame.Width;
+                                depthHeight = depthImageFrame.Height;
+                            }
+                            else if (null != sensor.DepthStream)
+                            {
+                                depthFormat = sensor.DepthStream.Format;
+                                depthWidth = sensor.DepthStream.FrameWidth;
+                                depthHeight = sensor.DepthStream.FrameHeight;
+                            }
                         }
-                        else if (null != sensor.DepthStream)
-                        {
-                            depthFormat = sensor.DepthStream.Format;
-                            depthWidth = sensor.DepthStream.FrameWidth;
-                            depthHeight = sensor.DepthStream.FrameHeight;
-                        }
-                    }
 
-                    break;
+                        break;
                 }
 
                 for (int i = 0; i < this.skeletonData.Length && i < this.skeletonCanvases.Count; i++)
@@ -281,12 +281,12 @@ namespace Microsoft.Samples.Kinect.WpfViewers
                                 sensor,
                                 this.ImageType,
                                 this.RenderSize,
-                                joint.Position, 
-                                colorFormat, 
-                                colorWidth, 
-                                colorHeight, 
-                                depthFormat, 
-                                depthWidth, 
+                                joint.Position,
+                                colorFormat,
+                                colorWidth,
+                                colorHeight,
+                                depthFormat,
+                                depthWidth,
                                 depthHeight);
 
                             jointMapping[joint.JointType] = new JointMapping
@@ -307,12 +307,12 @@ namespace Microsoft.Samples.Kinect.WpfViewers
                         sensor,
                         this.ImageType,
                         this.RenderSize,
-                        skeleton.Position, 
-                        colorFormat, 
-                        colorWidth, 
-                        colorHeight, 
-                        depthFormat, 
-                        depthWidth, 
+                        skeleton.Position,
+                        colorFormat,
+                        colorWidth,
+                        colorHeight,
+                        depthFormat,
+                        depthWidth,
                         depthHeight);
 
                     // Scale the skeleton thickness

@@ -57,9 +57,13 @@
     <Reference Include="Microsoft.Kinect">
       <HintPath>$(KINECTSDK10_DIR)\Assemblies\Microsoft.Kinect.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Kinect.Toolkit.BackgroundRemoval">
+      <HintPath>Assemblies\Microsoft.Kinect.Toolkit.BackgroundRemoval.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Speech, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Drawing" />
@@ -81,13 +85,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="SpeechRecognizer.cs" />
-    <Compile Include="trivia.Designer.cs">
+    <Compile Include="Answer.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Guess.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>trivia.edmx</DependentUpon>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="UIValidation.cs" />
+    <Compile Include="SpeechRecognizer.cs" />
+    <Compile Include="TriviaDataSource.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -109,11 +116,6 @@
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -121,23 +123,19 @@
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Properties\DataSources\Trivia.datasource" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
     <None Include="Resources\TriviaGame.ico" />
-    <EntityDeploy Include="trivia.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>trivia.Designer.cs</LastGenOutput>
-    </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
@@ -177,15 +175,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Pop-5.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Hit-2.wav" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Squeeze.wav" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\Pyramids_of_Giza.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -198,7 +187,6 @@
     <Resource Include="Resources\georgewbush.jpg" />
     <Resource Include="Resources\al.JPG" />
     <Resource Include="Resources\All_Gizah_Pyramids.jpg" />
-    <Resource Include="Resources\ary.JPG" />
     <Resource Include="Resources\AudioKinectIcon.png" />
     <Resource Include="Resources\ChineseBreakdown.mp3" />
     <Resource Include="Resources\chris.jpg" />
@@ -208,7 +196,6 @@
     <Resource Include="Resources\landon.JPG" />
     <Resource Include="Resources\lava.jpg" />
     <Resource Include="Resources\marilyn.JPG" />
-    <Resource Include="Resources\melissia.jpg" />
     <Resource Include="Resources\Pyramids_of_Giza.jpg" />
     <Resource Include="Resources\Slider.png" />
     <Resource Include="Resources\SliderTrack.png" />
@@ -232,8 +219,20 @@
     <Resource Include="Resources\tombrady.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\fox.wav" />
+    <Content Include="KinectBackgroundRemoval180_32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="KinectBackgroundRemoval180_64.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assemblies\Microsoft.Kinect.Toolkit.BackgroundRemoval.dll" />
+    <Content Include="Resources\Hit-2.wav" />
+    <Content Include="Resources\poolparty.mp3" />
+    <Content Include="Resources\Pop-5.wav" />
+    <Content Include="Resources\ScaryAtmosphere.mp3" />
+    <Content Include="Resources\Squeeze.wav" />
     <Resource Include="Resources\washingtonredskins.png" />
-    <Resource Include="XMLFile1.xml" />
     <Resource Include="Resources\patriots.jpg" />
     <Resource Include="Resources\packers.jpg" />
     <Resource Include="Resources\ben.jpg" />
@@ -242,13 +241,6 @@
     <Resource Include="Resources\drewbledsoe.jpg" />
     <Resource Include="Resources\drewbrees.jpg" />
     <Resource Include="Resources\elimanning.jpg" />
-    <Content Include="Database1.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database1_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Database1.mdf</DependentUpon>
-    </Content>
     <Resource Include="Resources\chicagobears.png" />
     <Resource Include="Resources\carolinapanthers.png" />
     <Resource Include="Resources\arizonacardinals.png" />
@@ -285,7 +277,21 @@
     <Resource Include="Resources\tampabaybuccaneers.png" />
     <Resource Include="Resources\tennesseetitans.png" />
     <Resource Include="Resources\harder.gif" />
+    <Resource Include="Resources\superdome.jpg" />
     <Content Include="Resources\testyourfootballknowledge.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="KinectWpfViewers\Microsoft.Samples.Kinect.WpfViewers.csproj">
+      <Project>{4de23893-27e7-423f-9bb6-ba21dac2c45e}</Project>
+      <Name>Microsoft.Samples.Kinect.WpfViewers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Microsoft.Kinect.Toolkit\Microsoft.Kinect.Toolkit.csproj">
+      <Project>{c6f9c31b-6130-4443-a5cc-ef0664552ecd}</Project>
+      <Name>Microsoft.Kinect.Toolkit</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

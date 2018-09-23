@@ -114,3 +114,140 @@ C:\Users\Samsung\Google Drive\Programming\KinectWpfViewers\obj\Debug\Microsoft.S
 C:\Users\Samsung\Google Drive\Programming\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.Properties.Resources.resources
 C:\Users\Samsung\Google Drive\Programming\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.GenerateResource.Cache
 C:\Users\Samsung\Google Drive\Programming\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Kinect.dll
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Kinect.xml
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectAudioViewer.g.cs
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectDepthViewer.g.cs
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectColorViewer.g.cs
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSettings.g.cs
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSkeletonViewer.g.cs
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectVoiceCommandViewer.g.cs
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers_MarkupCompile.cache
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers_MarkupCompile.lref
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectAudioViewer.baml
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectDepthViewer.baml
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectColorViewer.baml
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSettings.baml
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSkeletonViewer.baml
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectVoiceCommandViewer.baml
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.g.resources
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.Properties.Resources.resources
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.GenerateResource.cache
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.CoreCompileInputs.cache
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.CopyComplete
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Kinect.dll
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Speech.dll
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Kinect.xml
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectAudioViewer.g.cs
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectDepthViewer.g.cs
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectColorViewer.g.cs
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSettings.g.cs
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSkeletonViewer.g.cs
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectVoiceCommandViewer.g.cs
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers_MarkupCompile.cache
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers_MarkupCompile.lref
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectAudioViewer.baml
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectDepthViewer.baml
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectColorViewer.baml
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSettings.baml
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSkeletonViewer.baml
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectVoiceCommandViewer.baml
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.g.resources
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.Properties.Resources.resources
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.GenerateResource.cache
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.CoreCompileInputs.cache
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.CopyComplete
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csprojAssemblyReference.cache
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csprojAssemblyReference.cache
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Kinect.dll
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Kinect.xml
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csprojAssemblyReference.cache
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectAudioViewer.g.cs
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectDepthViewer.g.cs
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectColorViewer.g.cs
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSettings.g.cs
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSkeletonViewer.g.cs
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectVoiceCommandViewer.g.cs
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers_MarkupCompile.cache
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers_MarkupCompile.lref
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectAudioViewer.baml
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectDepthViewer.baml
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectColorViewer.baml
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSettings.baml
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSkeletonViewer.baml
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectVoiceCommandViewer.baml
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.g.resources
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.Properties.Resources.resources
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.GenerateResource.cache
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.CoreCompileInputs.cache
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.CopyComplete
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Kinect.dll
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Speech.dll
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Kinect.xml
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectAudioViewer.g.cs
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectDepthViewer.g.cs
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectColorViewer.g.cs
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSettings.g.cs
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSkeletonViewer.g.cs
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectVoiceCommandViewer.g.cs
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers_MarkupCompile.cache
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers_MarkupCompile.lref
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectAudioViewer.baml
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectDepthViewer.baml
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectColorViewer.baml
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSettings.baml
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSkeletonViewer.baml
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectVoiceCommandViewer.baml
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.g.resources
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.Properties.Resources.resources
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.GenerateResource.cache
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.CoreCompileInputs.cache
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.CopyComplete
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Kinect.dll
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Speech.dll
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\bin\Debug\Microsoft.Kinect.xml
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csprojAssemblyReference.cache
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectAudioViewer.g.cs
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectDepthViewer.g.cs
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectColorViewer.g.cs
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSettings.g.cs
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSkeletonViewer.g.cs
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectVoiceCommandViewer.g.cs
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers_MarkupCompile.cache
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers_MarkupCompile.lref
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectAudioViewer.baml
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectDepthViewer.baml
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectColorViewer.baml
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSettings.baml
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectSkeletonViewer.baml
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\KinectVoiceCommandViewer.baml
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.g.resources
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.Properties.Resources.resources
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.GenerateResource.cache
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.CoreCompileInputs.cache
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.csproj.CopyComplete
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\KinectWpfViewers\obj\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb

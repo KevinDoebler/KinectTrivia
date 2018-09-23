@@ -64,3 +64,85 @@ C:\Users\Samsung\Google Drive\Programming\Microsoft.Kinect.Toolkit\bin\Debug\Mic
 C:\Users\Samsung\Google Drive\Programming\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll.CodeAnalysisLog.xml
 C:\Users\Samsung\Google Drive\Programming\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll.lastcodeanalysissucceeded
 C:\Users\Samsung\Google Drive\Programming\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.pdb
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.dll
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.xml
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\KinectSensorChooserUI.baml
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\KinectSensorChooserUI.g.cs
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit_MarkupCompile.cache
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.g.resources
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.Properties.Resources.resources
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.GenerateResource.cache
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.CoreCompileInputs.cache
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.CopyComplete
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.pdb
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.pdb
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.dll
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.xml
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\KinectSensorChooserUI.baml
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\KinectSensorChooserUI.g.cs
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit_MarkupCompile.cache
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.g.resources
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.Properties.Resources.resources
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.GenerateResource.cache
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.CoreCompileInputs.cache
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.CopyComplete
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.pdb
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll.CodeAnalysisLog.xml
+C:\Users\doeblerke01\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll.lastcodeanalysissucceeded
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll.CodeAnalysisLog.xml
+C:\Users\kevin_asdg064\Desktop\GDrive\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll.lastcodeanalysissucceeded
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.pdb
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll.CodeAnalysisLog.xml
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll.lastcodeanalysissucceeded
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.dll
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.xml
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csprojAssemblyReference.cache
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\KinectSensorChooserUI.baml
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\KinectSensorChooserUI.g.cs
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit_MarkupCompile.cache
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.g.resources
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.Properties.Resources.resources
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.GenerateResource.cache
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.CoreCompileInputs.cache
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.CopyComplete
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\doeblerke01\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.pdb
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.pdb
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll.CodeAnalysisLog.xml
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll.lastcodeanalysissucceeded
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.dll
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.xml
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\KinectSensorChooserUI.baml
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\KinectSensorChooserUI.g.cs
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit_MarkupCompile.cache
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.g.resources
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.Properties.Resources.resources
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.GenerateResource.cache
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.CoreCompileInputs.cache
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.CopyComplete
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\kevin_asdg064\Desktop\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.pdb
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.pdb
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll.CodeAnalysisLog.xml
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll.lastcodeanalysissucceeded
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.dll
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.xml
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csprojAssemblyReference.cache
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\KinectSensorChooserUI.baml
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\KinectSensorChooserUI.g.cs
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit_MarkupCompile.cache
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.g.resources
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.Properties.Resources.resources
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.GenerateResource.cache
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.CoreCompileInputs.cache
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.CopyComplete
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.dll
+C:\Users\kevin_asdg064\Dropbox\Current Projects\KinectShapeTriviaGame\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.pdb

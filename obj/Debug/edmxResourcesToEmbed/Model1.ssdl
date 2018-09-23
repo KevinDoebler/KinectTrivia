@@ -1,27 +1,96 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
-  <EntityContainer Name="Model1StoreContainer">
-    <EntitySet Name="Answers" EntityType="Model1.Store.Answers" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Questions" EntityType="Model1.Store.Questions" store:Type="Tables" Schema="dbo" />
-  </EntityContainer>
+<Schema Namespace="Database1Model1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="Answers">
     <Key>
       <PropertyRef Name="AnsID" />
     </Key>
-    <Property Name="AnsID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AnsID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="AnsQueID" Type="int" Nullable="false" />
     <Property Name="AnsImagePath" Type="varchar" MaxLength="255" />
     <Property Name="AnsCorrect" Type="bit" Nullable="false" />
     <Property Name="AnsInactive" Type="bit" Nullable="false" />
     <Property Name="AnsText" Type="varchar" MaxLength="255" />
   </EntityType>
+  <EntityType Name="Games">
+    <Key>
+      <PropertyRef Name="GamID" />
+    </Key>
+    <Property Name="GamID" Type="int" Nullable="false" />
+    <Property Name="GamPlayerName" Type="varchar" MaxLength="255" />
+    <Property Name="GamScore" Type="int" />
+    <Property Name="GamDateTime" Type="datetime" />
+    <Property Name="GamDifficulty" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Guesses">
+    <Key>
+      <PropertyRef Name="GueID" />
+    </Key>
+    <Property Name="GueID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GueAnsID" Type="int" Nullable="false" />
+    <Property Name="GueGamID" Type="int" />
+  </EntityType>
   <EntityType Name="Questions">
     <Key>
       <PropertyRef Name="QueID" />
     </Key>
-    <Property Name="QueID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
-    <Property Name="QueQuestion" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="QueID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="QueQuestion" Type="varchar" MaxLength="255" Nullable="false" />
     <Property Name="QueDropSpeed" Type="int" />
     <Property Name="QueInactive" Type="bit" Nullable="false" />
+    <Property Name="QueDifficulty" Type="int" Nullable="false" />
   </EntityType>
+  <Association Name="FK_Answers_Questions">
+    <End Role="Questions" Type="Self.Questions" Multiplicity="1" />
+    <End Role="Answers" Type="Self.Answers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Questions">
+        <PropertyRef Name="QueID" />
+      </Principal>
+      <Dependent Role="Answers">
+        <PropertyRef Name="AnsQueID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Guesses_Answers">
+    <End Role="Answers" Type="Self.Answers" Multiplicity="1" />
+    <End Role="Guesses" Type="Self.Guesses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Answers">
+        <PropertyRef Name="AnsID" />
+      </Principal>
+      <Dependent Role="Guesses">
+        <PropertyRef Name="GueAnsID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Guesses_Games">
+    <End Role="Games" Type="Self.Games" Multiplicity="0..1" />
+    <End Role="Guesses" Type="Self.Guesses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Games">
+        <PropertyRef Name="GamID" />
+      </Principal>
+      <Dependent Role="Guesses">
+        <PropertyRef Name="GueGamID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Database1Model1StoreContainer">
+    <EntitySet Name="Answers" EntityType="Self.Answers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Games" EntityType="Self.Games" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Guesses" EntityType="Self.Guesses" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Questions" EntityType="Self.Questions" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Answers_Questions" Association="Self.FK_Answers_Questions">
+      <End Role="Questions" EntitySet="Questions" />
+      <End Role="Answers" EntitySet="Answers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Guesses_Answers" Association="Self.FK_Guesses_Answers">
+      <End Role="Answers" EntitySet="Answers" />
+      <End Role="Guesses" EntitySet="Guesses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Guesses_Games" Association="Self.FK_Guesses_Games">
+      <End Role="Games" EntitySet="Games" />
+      <End Role="Guesses" EntitySet="Guesses" />
+    </AssociationSet>
+  </EntityContainer>
 </Schema>
